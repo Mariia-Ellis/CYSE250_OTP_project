@@ -1,3 +1,4 @@
+<pre>
 # CYSE250_OTP_project
 
 clone project from github to your local machine
@@ -14,3 +15,4 @@ pytnon manage.py runserver         //command to run the server
 http://127.0.0.1:8000/             //open in broweser after run server to run the project
 
 One time password is send to terminal and valid for 60 seconds.
+</pre>
