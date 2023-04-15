@@ -1,6 +1,7 @@
 import pyotp
 from datetime import datetime, timedelta
 
+#function that generates otp valid for 60 seconds and print it to terminal
 def send_otp(request):
     #timebased one time password variable to generate a code valid for 60 seconds
     totp = pyotp.TOTP(pyotp.random_base32(), interval=60)
